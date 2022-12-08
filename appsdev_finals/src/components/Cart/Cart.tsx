@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ClothingShopContext, } from "../../useContext/shopContext";
+import { ClothingShopContext, } from "../useContext/shopContext";
 import { Product } from "../../models";
 import { ProductCard } from "../ProductCard";
 import { ProductsWrapper, Title } from "./Cart.styled";

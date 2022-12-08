@@ -2,7 +2,7 @@ import { AddButton, SubTitle,TextContainer,Title,Wrapper,} from './ProductCard.s
 
 import { useState, useEffect, useContext } from 'react';
 import { Product } from '../../models';
-import { ClothingShopContext} from '../../useContext';
+import { ClothingShopContext} from '../useContext';
 
 export const ProductCard = ({ name, imageUrl, price }: Product) => {
   const {products, addToCart, removeItem} = useContext(ClothingShopContext);
