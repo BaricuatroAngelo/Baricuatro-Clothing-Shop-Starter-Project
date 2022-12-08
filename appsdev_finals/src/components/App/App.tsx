@@ -3,9 +3,9 @@ import { LinksWrapper, TitleWrapper, Wrapper } from "./App.styled";
 
 import { Cart } from "../Cart";
 import { Products } from "../Products";
-import { ClothingShopContext } from "../../useContext";
+import { ClothingShopContext } from "../useContext";
 import { useReducer } from "react";
-import { add, initialState, remove, shopReducer, update } from "../../useReducer";
+import { add, initialState, remove, shopReducer, update } from "../useReducer";
 import { Product } from "../../models";
 
 export const App = () => {
