@@ -42,7 +42,7 @@ export const Cell = styled.td`
 
   p {
     font-weight: bold;
-    font-size: 19px;
+    font-size: 22px;
     margin: 0;
   }
 `;
@@ -67,9 +67,10 @@ export const OrderButton = styled.button`
   height: 30px;
   padding: 5px;
   cursor: pointer;
+  border-radius: 15px;
 
   p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin: 0;
     color: black;
