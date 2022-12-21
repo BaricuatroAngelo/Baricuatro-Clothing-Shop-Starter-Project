@@ -14,7 +14,7 @@ export const QuantityButton = ({ name, price, quantity }: Product) => {
 
   const handleDecrease = () => {
     const product = { name, price, quantity };
-    if (quantity < 1) {
+    if (quantity <= 1) {
       removeFromCart(product);
     } else {
       decreaseOrder(product);
