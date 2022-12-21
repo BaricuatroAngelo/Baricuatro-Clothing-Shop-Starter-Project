@@ -30,9 +30,9 @@ export const ProductCard = ({ name, imageUrl, price, quantity }: Product) => {
   }, [products, name]);
 
   useEffect(() => {
-    const productIsInList = wishes.find((product) => product.name === name);
+    const itemIsInList = wishes.find((product) => product.name === name);
 
-    if (productIsInList) {
+    if (itemIsInList) {
       setIsInList(true);
     } else {
       setIsInList(false);
