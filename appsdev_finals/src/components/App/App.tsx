@@ -15,7 +15,7 @@ import {
   removeWish,
   shopReducer,
   update,
-} from "../../reducer";
+} from "../../hooks";
 import { Product } from "../../models";
 import { WishList } from "../WishList/WishList";
 import { CheckOut } from "../CheckOut";
