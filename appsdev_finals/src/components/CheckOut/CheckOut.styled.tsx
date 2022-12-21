@@ -57,7 +57,7 @@ export const CheckOutInput = styled.input`
 `;
 
 export const OrderButton = styled.button`
-  background-color: #99ffff;
+  background-color: #ADD8E6;
   float: right;
   justify-content: center;
   align-items: center;
